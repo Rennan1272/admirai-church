@@ -1,0 +1,60 @@
+.wrap {
+  padding: 18px 18px 80px;
+}
+
+.sectionLabel {
+  color: #777;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.card {
+  background: #141414;
+  border: 1px solid #222;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 14px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.dateBox {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 8px 10px;
+  text-align: center;
+  min-width: 48px;
+  flex-shrink: 0;
+}
+
+.day   { display: block; color: #FF8C00; font-size: 18px; font-weight: 700; line-height: 1.1; }
+.month { display: block; color: #555;    font-size: 9px;  letter-spacing: 1px; }
+
+.info { flex: 1; }
+
+.nameRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.name  { color: #fff;    font-size: 14px; font-weight: 700; }
+.price { color: #FF8C00; font-size: 13px; font-weight: 700; }
+.desc  { color: #666;    font-size: 12px; margin-bottom: 5px; }
+.date  { color: #444;    font-size: 11px; }
+
+.notice {
+  background: #0f0f0f;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  padding: 14px;
+  text-align: center;
+  color: #444;
+  font-size: 12px;
+  margin-top: 8px;
+}

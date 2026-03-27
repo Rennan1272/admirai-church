@@ -1,0 +1,136 @@
+.wrap { padding-bottom: 80px; }
+
+.pageHeader {
+  position: sticky;
+  top: 52px;
+  background: #0a0a0a;
+  border-bottom: 1px solid #1e1e1e;
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 9;
+}
+
+.pageTitle { color: #888; font-size: 11px; font-weight: 700; letter-spacing: 2px; }
+
+.btnNew {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 16px;
+  padding: 5px 14px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.composer {
+  background: #141414;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 14px 16px;
+}
+
+.composerTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.avatarLg {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #222;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.composerName { color: #fff; font-size: 13px; font-weight: 700; }
+.composerRole { color: #555; font-size: 11px; }
+
+.textarea {
+  width: 100%;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 13px;
+  min-height: 72px;
+  resize: none;
+  outline: none;
+}
+
+.composerActions { display: flex; gap: 8px; margin-top: 10px; }
+
+.btnPublish {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnCancel {
+  background: transparent;
+  color: #666;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.postCard { border-bottom: 1px solid #1a1a1a; padding: 18px 16px; }
+
+.postTop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.postAuthorRow { display: flex; align-items: center; gap: 8px; }
+.postAuthor    { color: #fff; font-size: 13px; font-weight: 700; }
+
+.tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid;
+  letter-spacing: 0.5px;
+}
+
+.postMeta { color: #555; font-size: 11px; }
+.postText { color: #ccc; font-size: 13px; line-height: 1.6; margin-bottom: 12px; }
+
+.postFooter { display: flex; gap: 22px; }
+
+.actionBtn {
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.actionBtn span { font-size: 15px; }
+.actionBtn.liked { color: #FF4500; }
